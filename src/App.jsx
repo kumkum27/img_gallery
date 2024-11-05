@@ -69,6 +69,24 @@ function App() {
           </div>
         )}
       </div>
+      <footer className="bg-gray-900 text-white py-8 mt-12">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="mb-4 md:mb-0">
+              <h3 className="text-2xl font-bold text-teal-500">PixelPulse</h3>
+              <p className="mt-2">Discover and share amazing images</p>
+            </div>
+            <div className="flex space-x-4">
+              <a href="#" className="hover:text-teal-500 transition-colors duration-300">About</a>
+              <a href="#" className="hover:text-teal-500 transition-colors duration-300">Contact</a>
+              <a href="#" className="hover:text-teal-500 transition-colors duration-300">Privacy Policy</a>
+            </div>
+          </div>
+          <div className="mt-8 text-center text-gray-400 text-sm">
+            © {new Date().getFullYear()} PixelPulse. All rights reserved.
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
