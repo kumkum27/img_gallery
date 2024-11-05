@@ -19,13 +19,13 @@ const ImageCards = ({ image }) => {
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="font-bold text-xl mb-4 text-teal-600">Photo by {image.user}</h3>
         <div className="flex justify-between text-sm text-gray-600 mb-4 space-x-4">
-          <span className="flex items-center bg-gray-translucent"><i className="bx bx-show mr-1"></i> {image.views}</span>
-          <span className="flex items-center bg-gray-translucent"><i className="bx bx-download mr-1"></i> {image.downloads}</span>
-          <span className="flex items-center bg-gray-translucent"><i className="bx bx-heart mr-1"></i> {image.likes}</span>
+          <span className="flex items-center"><i className="bx bx-show mr-1"></i> {image.views}</span>
+          <span className="flex items-center"><i className="bx bx-download mr-1"></i> {image.downloads}</span>
+          <span className="flex items-center"><i className="bx bx-heart mr-1"></i> {image.likes}</span>
         </div>
         <div className="flex flex-wrap gap-2 mt-auto">
           {tags.map((tag, index) => (
-            <span key={index} className="bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-teal-700 ">
+            <span key={index} className="bg-gray-200 rounded-full px-2 py-1 text-xs font-semibold text-teal-700 bg-gray-translucent ">
               #{tag.trim()}
             </span>
           ))}
