@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import ImageCards from "./components/ImageCards.jsx";
-import ImageSearch from "./components/ImageSearch.jsx";
+import ImageCards from "./components/ImageCards";
+import ImageSearch from "./components/ImageSearch";
 import github from "./assets/github.png";
 
 function App() {
