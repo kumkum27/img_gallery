@@ -16,6 +16,7 @@ module.exports = {
           600: '#0d9488',
           700: '#0f766e',
         },
+        'gray-translucent': '#8080801a',
       },
     },
   },
