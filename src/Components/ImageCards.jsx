@@ -19,9 +19,9 @@ const ImageCards = ({ image }) => {
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="font-bold text-xl mb-4 text-teal-600">Photo by {image.user}</h3>
         <div className="flex justify-between text-sm text-gray-600 mb-4 space-x-4">
-          <span className="flex items-center background-color: #8080801f;"><i className="bx bx-show mr-1"></i> {image.views}</span>
-          <span className="flex items-center background-color: #8080801f;"><i className="bx bx-download mr-1"></i> {image.downloads}</span>
-          <span className="flex items-center background-color: #8080801f;"><i className="bx bx-heart mr-1"></i> {image.likes}</span>
+          <span className="flex items-center background-color: #8080801f;" style="background-color: #8080801a;"><i className="bx bx-show mr-1"></i> {image.views}</span>
+          <span className="flex items-center background-color: #8080801f;" style="background-color: #8080801a;"><i className="bx bx-download mr-1"></i> {image.downloads}</span>
+          <span className="flex items-center background-color: #8080801f;" style="background-color: #8080801a;"><i className="bx bx-heart mr-1"></i> {image.likes}</span>
         </div>
         <div className="flex flex-wrap gap-2 mt-auto">
           {tags.map((tag, index) => (
